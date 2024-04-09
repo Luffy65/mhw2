@@ -496,6 +496,10 @@ NOTA: tale lista dovrebbe diventare visibile dopo che si clicca "More Season Tie
     font-family: "Roboto", sans-serif;
 }
 
+.more-tier-list div {
+    position: relative;
+}
+
 .NASCOSTO {
     display: none;
 }
