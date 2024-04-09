@@ -1,0 +1,1109 @@
+/* Se il dispositivo ha larghezza massima 500px, allora gli impostiamo queste caratteristiche. */
+@media (max-width: 500px) {
+    article {
+      margin: 0 2px;
+    }
+
+    /* Le classi che sono impostate a 1080px di larghezza le imposto a 500px */
+    .sotto-div-header2 {
+        width: 500px;
+    }
+
+    .wrapper {
+        width: 500px;
+    }
+
+    #footer {
+        min-width: 500px;
+    }
+    
+    /* css-x4napu */
+    .footer-class1 {
+        min-width: 500px;
+    }
+
+    /* Applicato a tutti i div figli diretti di un footer-class1 */
+    .footer-class1 >div {
+        width: 500px;
+    }
+}
+
+html {
+    font-family: sans-serif;
+    background-color: #1C1C1F;
+}
+
+nav {
+    display: block;
+}
+
+body {
+    margin: 0px;
+    background-color: #1C1C1F;    
+}
+
+html, body, button, select, input, textarea, label, a, table {
+    font-family: sans-serif, system-ui, sans-serif;
+}
+
+input, select {
+    background: #fff;
+    border: none;
+    vertical-align: middle;
+}
+
+select {
+    border-radius: 0;
+    appearance: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+
+img {
+    border: 0px;
+    vertical-align: middle;
+    max-width: 100%;
+}
+
+/* Classe di funzioni aventi tali caratteristiche. Potrei anche impostare questi valori da html, ma impostandoli con le classi in questo modo implemento la separazione delle responsabilità. */
+.img1 {
+    width: 16px;
+    height: 16px;
+}
+
+.img2 {
+    width: 24px;
+    height: 24px;
+}
+
+.img3 {
+    width: 65px;
+    height: 16px;
+}
+
+.img4 {
+    width: 290px;
+}
+
+.img5 {
+    width: 24px;
+    height: 21px;
+}
+
+.img7 {
+    width: 72px;
+}
+
+.img8 {
+    width: 99px;
+    height: 24px;
+}
+
+.user-icon-jpg {
+    width: 29px;
+    height: 29px;
+    margin-bottom: 5px;
+}
+
+ol, ul, li {
+    list-style: none;
+}
+
+dl, dt, dd, ol, ul, li {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+button {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    cursor: pointer;
+    /* background: transparent; /* Rende i button trasparenti, lo de-commenterò una volta che avrò sistemato i button */
+}
+
+/* Mi rovina i button in alto, lo de-commenterò una volta che li avrò sistemati
+body, h1, h2, h3, h4, p, ol, ul, dl, dd, button {
+    margin: 0;
+    padding: 0;
+}
+*/
+
+/* __next */
+#intero-sito {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.light-mode {
+    background-color: white;
+    color: black;
+}
+  
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+/* Per la barra di ricerca dei giocatori. Deve essere sufficientemente lunga e centrata. */
+#input-player {
+    width: 650%;
+    height: 50%;
+    margin-top: 10px;
+}
+
+/* css-r8zyx3 */
+.div-header2 {
+    background-color: #5383E8;
+}
+
+/* css-vq1d1t */
+.sotto-div-header2 {
+    display: flex;
+    margin: 0px auto;
+    width: 1080px;
+    gap: 4px;
+}
+
+/* css-elomsb */
+.ss-div-header2 {
+    display: block;
+    width: 94px;
+    height: 46px;
+    margin-right: 21px;
+    margin-top: 2px;
+    margin-left: 9px;
+}
+
+.desktop-header .ss-div-header2 {
+    width: 124px;
+    height: auto;
+    margin: auto 0px;
+}
+
+.ss-div-header2 >div {
+    padding: 0;
+}
+
+/* css-1ljw335 */
+.sss-div-header2 {
+    padding: 8px 0px 0px;
+}
+
+.desktop-header .sss-div-header2 {
+    padding: 0px;
+}
+
+.desktop-header .sss-div-header2 img {
+    max-width: 100%;
+    max-height: 46px;
+}
+
+.sss-div-header2 img {
+    display: block;
+    max-width: 290px;
+    margin: 0px auto;
+    object-fit: contain; /* Il contenuto dell'immagine viene scalato per MANTENERE il suo aspect ratio originale. L'intera immagine riempie il box, senza venire "schiacciata". */
+}
+
+header {
+    display: block;
+    background-color: #5383E8;
+    height: 5.9%;
+    color: white;
+}
+
+.use-op-score {
+    top: 0;
+    right: 0;
+    height: 36px;
+}
+
+.use-op-score .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 36px;
+    padding-right: 4px;
+    background-color: #34414D;
+    color: white;
+    border-radius: 18px;
+    font-size: 12px;
+}
+
+.use-op-score .header .header-info {
+    padding: 0 10px 0 16px;
+    line-height: 16px;
+}
+
+.flexbox0 {
+    display: flex;
+    flex-direction: row;
+    height: 40px;
+    padding-left: 98px;
+    background-color: #28344E;
+    align-items: center;
+}
+
+.flexbox0 .logo {
+    position: absolute; 
+    top: 0;
+    left: 0;
+    width: 98px;
+    height: 40px;
+    background-color: #5383E8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Applicato a un nav dentro un elemento di classe flexbox0 */
+.flexbox0 nav {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 1;
+}
+
+/* Applicato a liste "ul" dentro un elemento "nav" contenuto in un elemento di classe flexbox0 */
+.flexbox0 nav ul {
+    display: flex;
+    overflow: hidden;
+    height: 40px;
+}
+
+.flexbox0 nav ul li:nth-of-type(1) {
+    padding: 0 12px 0 0;
+    background-color: #5383E8;
+}
+
+/* Applicato alla scritta "league of legends" in alto a sinistra */
+/* ovvero allo span figlio diretto del primo elemento della lista ul dentro il nav dentro flexbox0*/
+.flexbox0 nav ul li:nth-of-type(1)>span {
+    color: white;
+}
+
+.flexbox0 nav ul li {
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.flexbox0 nav ul li>a {
+    height: 32px;
+    line-height: 32px; /* L'abbiamo studiato */
+    margin: 4px;
+    padding: 0 8px;
+    font-weight: normal;
+}
+
+.flexbox0 nav ul li>a, .flexbox0 nav ul li>span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #C3CBD1;
+}
+
+.flexbox0 nav ul li>a>span, .flexbox0 nav ul li>span>span {
+    margin-left: 8px;
+    font-size: 12px;
+}
+
+.palworld-b {
+    display: block;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+    border-radius: 50%;
+    font-size: 11px;
+    font-weight: bold;
+    text-align: center;
+    background-color: #FFB900;
+    color: #28344E;
+}
+
+.flexbox3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 0px;
+}
+
+/* css-158fcuv */
+.evocatore-class1 {
+    position: relative;
+    background-color: #FFF;
+    background-color: #31313C;
+}
+
+/* Il div avente id "evocatore" contiene due div figli diretti posti uno sopra l'altro: sopra-evocatore1 e sotto-evocatore */
+
+/* css-1pap6km  */
+.sopra-evocatore1 {
+    position: relative;
+}
+
+.sopra-evocatore1:before {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    top: 0;
+    bottom: -45px;
+    background: url(https://opgg-static.akamaized.net/meta/images/lol/14.6.1/champion/centered/Kassadin_24.jpg?image=c_crop,w_1280,y_-120,x_0) no-repeat center center;
+    background-size: cover;
+    opacity: 0.4;
+    z-index: 1;
+}
+
+.sopra-evocatore1:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 50%;
+    margin-left: -450px;
+    width: 900px;
+    top: 0;
+    bottom: -45px;
+    opacity: 1;
+    background: url(https://s-lol-web.op.gg/static/images/site/summoner/mask.svg) no-repeat center center;
+    background-size: cover;
+    z-index: 1;
+}
+
+.sopra-evocatore1:after {
+    background: url(https://s-lol-web.op.gg/static/images/site/summoner/mask_dark.svg) no-repeat center center;
+}
+
+/* Usata in luoghi diversi del sito (es: footer; header-profile-info) per fornire un wrapper flex */
+.wrapper {
+    position: relative;
+    z-index: 3 !important; /* la regola !important fa l'override di altri eventuali valori di z-index che aveva l'elemento. */
+    display: flex;
+    width: 1080px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+.wrapper .header-profile-info {
+    display: flex;
+    padding: 10px 10px 16px 0;
+    flex: 1;
+    box-sizing: border-box;
+}
+
+/* a > b si applica a tutti gli elementi b figli diretti di a; 
+   a + b si applica all'elemento b posto SUBITO DOPO a, dove b e a hanno lo stesso genitore. */
+.wrapper >div+div {
+    display: flex;
+    align-items: center;
+}
+
+.profile-icon {
+    margin-top: 32px;
+    position: relative;
+    width: 100px;
+    height: 100px;
+    flex-basis: 100px;
+}
+
+.profile-icon img {
+    border-radius: 20px;
+    z-index: -1; /* Affinché il livello appaia sopra l'immagine */
+}
+
+.profile-icon div.level {
+    height: 20px;
+    margin-top: -11px;
+    text-align: center;
+}
+
+.profile-icon div.level span.level {
+    display: inline-block;
+    padding: 0 8px;
+    font-size: 12px;
+    border-radius: 10px;
+    color: white;
+    background-color: #202D37;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-profile-info .info {
+    flex: 1;
+    margin-left: 24px;
+    box-sizing: border-box;
+}
+
+.header-profile-info .info .tier-and-cover-img {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 32px;
+}
+
+.header-profile-info .info .prev-tier {
+    position: relative;
+    display: flex;
+    font-family: "Roboto", sans-serif;
+}
+
+.header-profile-info .info .prev-tier .more-tier {
+    position: relative;
+    margin-left: 4px;
+    padding: 0 16px 0 4px;
+    font-size: 12px;
+    color: #9AA4AF;
+    color: #7B7A8E;
+    line-height: 16px;
+    font-family: "Roboto", sans-serif;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+}
+
+.header-profile-info .info .prev-tier .more-tier:after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: block;
+    width: 16px;
+    height: 16px;
+    background-image: url(https://s-lol-web.op.gg/images/icon/icon-down-small.svg);
+}
+
+/* La lista dei rank delle season precedenti 
+NOTA: tale lista dovrebbe diventare visibile dopo che si clicca "More Season Tier" */
+.more-tier-list {
+    position: absolute;
+    top: 20px;
+    right: 0;
+    border-radius: 4px;
+    color: #9AA4AF;
+    color: #7B7A8E;
+    background-color: #ebeef1;
+    background-color: #1C1C1F;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+    font-size: 11px;
+    text-align: center;
+    font-family: "Roboto", sans-serif;
+}
+
+.NASCOSTO {
+    display: none;
+}
+
+/* Gli elementi di tale lista */
+.header-profile-info .info .prev-tier .more-tier-list li {
+    width: 90px;
+    line-height: 14px;
+    padding: 4px 12px;
+    border-bottom: 1px solid;
+    border-bottom-color: #DBE0E4;
+    border-bottom-color: var(--gray250);
+    text-transform: capitalize;
+}
+
+.header-profile-info .info>.name-container {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.header-profile-info .info>.name-container .name {
+    display: flex;
+    align-items: center;
+}
+
+/* pulsante preferiti quando non è giallo */
+/* css-1nrkspk */
+.pref-nongiallo {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: #424254;
+    background-color: #31313C;
+}
+
+/* pulsante preferiti quando diventa giallo */
+/* css-1ivma32 */
+.pref-giallo {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-image: initial;
+    border-color: #E28400;
+    background-color: #E28400;
+}
+
+.header-profile-info .info>.team-and-rank {
+    display: flex;
+    line-height: 16px;
+    margin-top: 6px;
+    color: #758592;
+    color: #9E9EB1;
+    font-size: 12px;
+}
+
+.header-profile-info .info>.buttons {
+    display: flex;
+    margin-top: 8px;
+    gap: 8px;
+}
+
+.header-profile-info .info>.last-update {
+    margin-top: 8px;
+    font-size: 12px;
+    color: #9AA4AF;
+    color: #7B7A8E;
+    width: max-content;
+}
+
+caption, .hidden {
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden; /* Quando il contenuto all'interno di un elemento di classse "hidden" uscirà fuori dal suo contenitore, grazie a questa proprietà la parte che fuoriesce sarà invisibile. */
+}
+
+/* css-1cniz6t */
+.sotto-evocatore {
+    position: relative;
+    z-index: 2;
+    padding: 4px 0;
+    border-top: 1px solid;
+    border-color: #ebeef1;
+    border-color: #1C1C1F;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Generica classe per fare un blocco flex che mette gli elementi al centro */
+.flexcenter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1%;
+}
+
+/* Questa classe è usata per una sezione pubblicità, e sta sotto il div "evocatore" */
+.sezione {
+    background-color: #31313C;
+    height: 99px;
+    width: 85%;
+    text-align: center;
+}
+
+/* Div che contiene le informazioni principali */
+#content-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 85%;
+    height: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.ranked-solo {
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #31313C;
+    color: white;
+}
+
+.ranked-flex {
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #31313C;
+    color: white;
+}
+
+.duo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px 12px;
+    border-top: 1px solid;
+    border-color: #ebeef1;
+    border-color: #1C1C1F;
+    background: #F7F7F9;
+    background: #282830;
+    border-radius: 4px;
+    color: #758592;
+    color: #9E9EB1;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+    margin-top: 8px;
+}
+
+.logo-duo {
+    display: flex;
+    align-items: center;
+    color: #202D37;
+    color: #FFF;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    margin-right: 8px;
+}
+
+/* sempre nella sezione "Duo" */
+.arrow {
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url(https://s-lol-web.op.gg/images/icon/icon-arrow-right-dark.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    vertical-align: top;
+}
+
+.used-champs {
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #31313C;
+}
+
+.champs-winrate {
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #31313C;
+}
+
+/* Zona ads 2 */
+.pubblicita {
+    margin-top: 8px;
+    min-width: 300px;
+    min-height: 250px;
+    display: flex;
+    justify-content: center;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    background: #31313C;
+    border-radius: 4px;
+    padding: 8px 0px;
+}
+
+.evocatori-giocato-recente {
+    margin-top: 8px;
+    border-radius: 4px;
+    background-color: #31313C;
+}
+
+.contenuto-destra {
+    width: 70%;
+    margin-left: 5%;
+}
+
+.tipologia {
+    background-color: #31313C;
+}
+
+.stats-box {
+    background-color: #31313C;
+}
+
+.partite {
+    background-color: #31313C;
+}
+
+.header-profile-info .info .prev-tier .tier-list {
+    display: flex;
+}
+
+/* Si applica al primo elemento della lista "tier-list" */
+.header-profile-info .info .prev-tier .tier-list li:first-of-type() {
+    margin-left: 0;
+}
+
+.header-profile-info .info .prev-tier .tier-list li {
+    line-height: 18px;
+    padding: 0 4px;
+    border-radius: 2px;
+    font-size: 11px;
+    color: #9AA4AF;
+    color: #7B7A8E;
+    background-color: #ebeef1;
+    background-color: #1C1C1F;
+    text-transform: capitalize;
+    margin-left: 4px;
+}
+
+.elo {
+    position: relative;
+}
+
+.header-inline {
+    display: inline-block;
+}
+
+/* applicata al div che contiene il div che contiene il button faq */
+/* css-h6zen */
+.FAQ {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.FAQ>div>button {
+    width: 24px;
+    height: 24px;
+    background-image: url(https://s-lol-web.op.gg/images/icon/chatbot.gif);
+    background-size: cover;
+    padding: 0;
+    border: none;
+}
+
+/* Span dentro il button faq. Viene fuori quando si clicca il button. */
+.FAQ>div>button>span {
+    font-size: 0;
+}
+
+/* questo span Viene fuori quando si clicca il button. */
+.button-non-cliccato span {
+    font-size: 14px;
+    line-height: 20px;
+    color: #202D37;
+    color: #FFF;
+    display: block;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/* Menu a tendina in FAQ */
+/* menu-faq = e1efcbgv1 */
+.FAQ .menu-faq+div {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 44px;
+    z-index: 10000000;
+    overflow-y: auto;
+    border-radius: 4px;
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2);
+}
+
+/* Menu a tendina */
+.FAQ>div>button+div {
+    top: 28px!important;
+    padding: 4px 0;
+    left: inherit!important;
+    z-index: 10000003!important;
+    right: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    background-color: #31313C;
+    overflow-y: auto;
+}
+
+/* css-w2p1w6 */
+.pulsanti-faq {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    padding: 0px 16px;
+    width: 100%;
+    height: 40px;
+    outline: none;
+    background: #31313C;
+    text-align: left;
+    color: #9E9EB1;
+    white-space: nowrap;
+}
+
+.pulsanti-faq:first-of-type {
+    border-radius: 4px 4px 0px 0px;
+}
+
+.pulsanti-faq:last-of-type {
+    border-radius: 0px 0px 4px 4px;
+}
+
+.FAQ>div>button+div >button {
+    height: 32px;
+    color: #44515C;
+    color: #B7B7C9;
+    background: inherit;
+    border: none;
+}
+
+/* pulsante dark-light mode quando è dark */
+/* css-zx4hnl */
+.dark {
+    width: 24px;
+    height: 24px;
+    background: url(https://s-lol-web.op.gg/images/icon/icon-darkmode.svg);
+}
+
+/* pulsante dark-light mode quando è light */
+.light {
+    width: 24px;
+    height: 24px;
+    background: url(https://s-lol-web.op.gg/images/icon/icon-lightmode.svg);
+}
+
+#divLightMode {
+    position:relative;
+    font-size:0;
+    margin-left:8px;
+}
+
+/* Div principale per le lingue */
+/* css-j405w8 */
+.lingue {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: 8px;
+}
+
+/* Applicato al div di class "SelectContainer" */
+.lingue >div:nth-of-type(1) {
+    flex-basis: 24px;
+    width: 24px;
+}
+
+/* Applicato al div che contiene l'icona del mondo nella parte delle lingue */
+/* css-652ze2 */
+.mondo {
+    font-size: 12px;
+    line-height: 16px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.mondo:after {
+    position: absolute;
+    content: "";
+    top: 50%;
+    right: 15px;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #9AA4AF;
+    margin-top: -2.5px;
+}
+
+/* dove c'è scritto "italiano" o la lingua in cui si sta visualizzando */
+/* css-1rolow6 */
+.lingua {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.lingua>div>button {
+    background: none;
+    border: none;
+    padding: 0 23px 0 8px;
+    height: auto;
+}
+
+/* applicata al div che contiene il button FAQ prima di essere cliccato, ma anche al div delle lingue prima di essere cliccato (dove c'è scritto "italiano" o la lingua in cui si sta visualizzando) */
+/* css-17jvkpw */
+.button-non-cliccato {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    position: relative;
+    height: 40px;
+    border-radius: 4px;
+    text-align: left;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-color: #DBE0E4;
+    border-color: #424254;
+    background: #FFF;
+    background: #31313C;
+    padding: 0 32px 0 16px;
+}
+
+.lingua>div>button>span {
+    color: #C3CBD1;
+    font-size: 12px;
+}
+
+.lingua>div>button:after {
+    right: 5px;
+    margin-top: -2.5px;
+    border-bottom: none;
+    position: absolute;
+    content: "";
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 5px solid transparent;
+    border-top-color: #C3CBD1;
+}
+
+.lingua>div>button+div {
+    top: 28px!important;
+    padding: 4px 0;
+    width: 136px;
+    height: 244px;
+    left: inherit!important;
+    z-index: 10000003!important;
+    right: 0;
+    box-sizing: border-box;
+    background-color: #FFF;
+    background-color: #31313C;
+    overflow-y: auto;
+}
+
+/* css-h5v7o4 */
+.login {
+    margin: 0 16px;
+    display: flex;
+    align-items: center;
+}
+
+/* css-6c6v7u */
+.dentro-login {
+    display: block;
+    padding: 4px 16px;
+    line-height: 18px;
+    font-size: 12px;
+    background-color: #5383E8;
+    color: #FFF;
+    border-radius: 4px;
+    white-space: nowrap;
+}
+
+.pulsanti-azzurri {
+    background-color: #5383E8;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 100%;
+}
+
+#footer {
+    min-width: 1080px;
+    margin-top: 48px;
+    padding: 48px 0;
+    background: #ebeef1;
+    background: #1C1C1F;
+}
+
+.footer-class1 >div {
+    width: 1080px;
+    margin: 0 auto;
+}
+
+/* css-x4napu */
+.footer-class1 {
+    min-width: 1080px;
+    margin-top: 48px;
+    padding: 48px 0;
+    background: #ebeef1;
+    background: #1C1C1F;
+}
+
+/* Si applica a entrambe le section del footer */
+#footer section {
+    display: flex;
+    justify-content: space-between;
+}
+
+#footer section:first-of-type .title {
+    margin-left: 0;
+}
+
+/* Applicato a tanti elementi .title nel footer */
+#footer .title {
+    font-weight: bold;
+    font-size: 14px;
+    color: #202D37;
+    color: #FFF;
+    padding-bottom: 16px;
+    display: block;
+}
+
+/* A:first-of-type si applica a tutti gli elementi A che sono i primi elementi A del proprio genitore. 
+   Dunque questo selettore si applica a tutti i figli diretti della prima section del footer. */
+#footer section:first-of-type >* {
+    margin-left: 12px;
+}
+
+#footer section:first-of-type nav {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+/* Si applica a una section di classe footer--bottom contenuta nel footer */
+#footer section.footer--bottom {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid;
+    border-color: #DBE0E4;
+    border-color: #424254;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 16px;
+    color: #9AA4AF;
+    color: #7B7A8E;
+}
+
+/* Si applica a un elemento di classe footer--bottom contenuto nel footer */
+#footer .footer--bottom {
+    font-size: 12px;
+    line-height: 16px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer-class1 section.footer--bottom .wrapper {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#footer section.footer--bottom nav {
+    display: flex;
+    flex-basis: auto;
+}
+
+#footer section.footer--bottom nav button:first-of-type, #footer section.footer--bottom nav a:first-of-type {
+    margin-left: 0;
+}
+
+#footer section.footer--bottom nav button, #footer section.footer--bottom nav a {
+    vertical-align: bottom;
+    width: 24px;
+    height: 24px;
+    margin-left: 12px;
+    display: inline-block;
+}
+
+#footer .footer--bottom a {
+    font-size: 12px;
+}
+
+#footer button, #footer a {
+    text-align: left;
+    font-size: 14px;
+    color: #758592;
+    color: #9E9EB1;
+}
